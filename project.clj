@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [prismatic/schema "1.1.12"]
                  [insn "0.4.0"]
-                 [org.blancas/kern "1.1.0"]]
+                 [org.blancas/kern "1.1.0"]
+                 [cli-matic "0.4.3"]]
   :main ^:skip-aot seattle.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
