@@ -1,0 +1,11 @@
+module Main
+
+import List
+
+data A = {a: B}
+
+type Maybe<T> = Just<T>(String) | Nothing
+
+def a = (): Int => 10
+
+def b = if a then True else False
